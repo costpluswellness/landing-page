@@ -1,0 +1,11 @@
+[build]
+  # If your site is purely static HTML/CSS/JS with no build process,
+  # you could just set the publish directory to "."
+  publish = "."
+  command = ""
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
